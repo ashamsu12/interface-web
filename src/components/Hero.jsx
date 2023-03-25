@@ -27,9 +27,9 @@ export function Hero() {
         to be on a map.
       </h1>
       <p className="mx-auto mt-6 max-w-2xl text-lg tracking-tight text-slate-700">
-        Interface is building the bridge between global businesses and the
+        {`Interface is building the bridge between global businesses and the
         world's most difficult-to-reach markets, the vastly underserved 1.2
-        billion-person African market.
+        billion-person African market.`}
       </p>
       <div className="mt-10 flex justify-center gap-x-6">
         <Button href="/register">Get started</Button>

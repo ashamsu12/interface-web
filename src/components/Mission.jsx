@@ -21,10 +21,13 @@ export function Mission() {
       <Container className="relative">
         <div className="mx-auto max-w-lg text-center">
           <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl">
-          Inclusive by design 
+            Inclusive by design
           </h2>
           <p className="mt-4 text-lg tracking-tight text-white">
-          Our payGo products are designed with inclusivity in mind, catering to customers of all income levels including those with irregular income patterns.            </p>
+            Our payGo products are designed with inclusivity in mind, catering
+            to customers of all income levels including those with irregular
+            income patterns.
+          </p>
           <Button href="/register" color="white" className="mt-10">
             Get started
           </Button>
