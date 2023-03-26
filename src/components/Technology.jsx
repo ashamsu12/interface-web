@@ -10,6 +10,7 @@ import screenshotPayroll from '@/images/screenshots/payroll.png'
 import screenshotReporting from '@/images/screenshots/reporting.png'
 import screenshotVatReturns from '@/images/screenshots/vat-returns.png'
 import screenshotTechnology from '@/images/screenshots/technology.png'
+import screenshotDashboard from '@/images/screenshots/dashboard.png'
 
 const features = [
   {
@@ -139,10 +140,10 @@ export function Technology() {
         <div className="mx-auto mt-16 flex max-w-2xl sm:mt-24 lg:ml-10 lg:mt-0 lg:mr-0 lg:max-w-none lg:flex-none xl:ml-32">
           <div className="max-w-3xl flex-none sm:max-w-5xl lg:max-w-none">
             <Image
-              src={screenshotTechnology}
+              src={screenshotDashboard}
               alt="App screenshot"
-              className=" aspect-square h-[35rem] rounded-md bg-white/5 shadow-2xl ring-1 ring-white/10"
-              unoptimized
+              width={1440}
+              className=" rounded-md bg-white/5 shadow-2xl ring-1 ring-white/10"
             />
           </div>
         </div>

@@ -24,11 +24,11 @@ export default function Home() {
       <main>
         <Hero />
         <Technology />
-        <SecondaryFeatures />
         <Mission />
+        <SecondaryFeatures />
         {/* <Testimonials />
         <Pricing /> */}
-        <Benefits />
+        {/* <Benefits /> */}
       </main>
       <Footer />
     </>

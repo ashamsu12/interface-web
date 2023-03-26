@@ -55,16 +55,22 @@ export function Benefits() {
         <div className="mx-auto max-w-2xl lg:mx-0">
           <h2
             id="faq-title"
-            className="font-display text-3xl tracking-tight text-slate-900 sm:text-4xl"
+            className="text-center font-display text-2xl tracking-tight text-slate-900 sm:text-4xl"
           >
-            Benefits for all parties.
+            Our journey so far
           </h2>
-          <p className="mt-4 text-lg tracking-tight text-slate-700">
-            We all get to walk away contented. This is what we have to offer
-            each party:
-          </p>
         </div>
-        <ul
+        <div className="mt-8">
+          <div className="relative mx-auto w-[52.75rem] overflow-hidden rounded-xl bg-white shadow-lg shadow-slate-900/5 ring-1 ring-slate-500/10">
+            <Image
+              className="w-full"
+              src={backgroundImage}
+              alt=""
+              sizes="72.75rem"
+            />
+          </div>
+        </div>
+        {/* <ul
           role="list"
           className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-8 lg:max-w-none lg:grid-cols-3"
         >
@@ -88,7 +94,7 @@ export function Benefits() {
               </ul>
             </li>
           ))}
-        </ul>
+        </ul> */}
       </Container>
     </section>
   )
