@@ -28,9 +28,9 @@ export function Mission() {
             to customers of all income levels including those with irregular
             income patterns.
           </p>
-          <Button href="/register" color="white" className="mt-10">
+          {/* <Button href="/register" color="white" className="mt-10">
             Get started
-          </Button>
+          </Button> */}
         </div>
       </Container>
     </section>

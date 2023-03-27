@@ -11,6 +11,7 @@ import screenshotReporting from '@/images/screenshots/reporting.png'
 import screenshotVatReturns from '@/images/screenshots/vat-returns.png'
 import screenshotTechnology from '@/images/screenshots/technology.png'
 import screenshotDashboard from '@/images/screenshots/dashboard.png'
+import { SliderButton } from '@typeform/embed-react'
 
 const features = [
   {
@@ -126,15 +127,14 @@ export function Technology() {
             third-party providers.
           </p>
           <div className="mt-10 flex items-center gap-x-6">
-            <a
-              href="#"
-              className="rounded-md bg-indigo-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-400"
+            <SliderButton
+              id="qQNSyZk2"
+              className="rounded-md bg-blue-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-blue-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-400"
             >
-              Get started
-            </a>
-            <a href="#" className="text-sm font-semibold leading-6 text-white">
-              Learn more <span aria-hidden="true">→</span>
-            </a>
+              <span>
+                Get started <span className="hidden lg:inline">today</span>
+              </span>
+            </SliderButton>
           </div>
         </div>
         <div className="mx-auto mt-16 flex max-w-2xl sm:mt-24 lg:ml-10 lg:mt-0 lg:mr-0 lg:max-w-none lg:flex-none xl:ml-32">

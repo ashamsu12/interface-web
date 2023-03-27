@@ -6,7 +6,7 @@ import clsx from 'clsx'
 import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
 import { Logo } from '@/components/Logo'
-import { NavLink } from '@/components/NavLink'
+import { PopupButton, SliderButton } from '@typeform/embed-react'
 
 function MobileNavLink({ href, children }) {
   return (
@@ -108,11 +108,15 @@ export function Header() {
             {/* <div className="hidden md:block">
               <NavLink href="/login">Sign in</NavLink>
             </div> */}
-            <Button href="/register" color="blue">
+
+            <SliderButton
+              id="qQNSyZk2"
+              className="group inline-flex items-center justify-center rounded-full bg-blue-600 py-2 px-4 text-sm font-semibold text-white hover:bg-blue-500 hover:text-slate-100 focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600 active:bg-blue-800 active:text-blue-100"
+            >
               <span>
                 Get started <span className="hidden lg:inline">today</span>
               </span>
-            </Button>
+            </SliderButton>
           </div>
         </nav>
       </Container>

@@ -7,6 +7,7 @@ import logoHuawei from '@/images/logos/huawei.jpeg'
 import logoKoolboks from '@/images/logos/koolboks.jpeg'
 import logoSunculture from '@/images/logos/sunculture.jpeg'
 import logoTransmissionHldng from '@/images/logos/transmissionhldng.jpeg'
+import { SliderButton } from '@typeform/embed-react'
 
 export function Hero() {
   return (
@@ -24,7 +25,7 @@ export function Hero() {
           </svg>
           <span className="relative"> deserves</span>
         </span>{' '}
-        to be on a map.
+        to be on the map.
       </h1>
       <p className="mx-auto mt-6 max-w-2xl text-lg tracking-tight text-slate-700">
         {`Interface is building the bridge between global businesses and the
@@ -32,12 +33,15 @@ export function Hero() {
         billion-person African market.`}
       </p>
       <div className="mt-10 flex justify-center gap-x-6">
-        <Button href="/register">Get started</Button>
+        <SliderButton
+          id="qQNSyZk2"
+          className="group inline-flex items-center justify-center rounded-full bg-slate-900 py-2 px-4 text-sm font-semibold text-white hover:bg-slate-700 hover:text-slate-100 focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-slate-900 active:bg-slate-800 active:text-slate-300"
+        >
+          <span>Get started</span>
+        </SliderButton>
       </div>
       <div className="mt-36 lg:mt-44">
-        <p className="font-display text-base text-slate-900">
-          Trusted by these five suppliers so far
-        </p>
+        <p className="font-display text-base text-slate-900">Trusted by</p>
         <ul
           role="list"
           className="mt-8 flex items-center justify-center gap-x-8 sm:flex-col sm:gap-x-0 sm:gap-y-10 xl:flex-row xl:gap-x-12 xl:gap-y-0"
