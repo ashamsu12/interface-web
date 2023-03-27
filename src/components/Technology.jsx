@@ -10,7 +10,7 @@ import screenshotPayroll from '@/images/screenshots/payroll.png'
 import screenshotReporting from '@/images/screenshots/reporting.png'
 import screenshotVatReturns from '@/images/screenshots/vat-returns.png'
 import screenshotTechnology from '@/images/screenshots/technology.png'
-import screenshotDashboard from '@/images/screenshots/dashboard.png'
+import screenshotDashboard from '@/images/screenshots/dashboard-img.png'
 import { SliderButton } from '@typeform/embed-react'
 
 const features = [
